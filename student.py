@@ -21,7 +21,7 @@ class Student:
     def full_name(self):
         return f"Hello {self.first_name} {self.last_name}"
 
-    def birth_year(self):
+    def year_of_birth(self):
         year = 2022 - self.age
         return f"Hello {self.first_name} from {self.last_name} you were born in" ,year
 
