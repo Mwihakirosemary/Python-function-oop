@@ -33,7 +33,7 @@ class Rectangle:
         print(P)
     
     
-class Shpere:
+class Sphere:
     def __init__(self,raduis):
         self.radius = raduis
     def area (self):
