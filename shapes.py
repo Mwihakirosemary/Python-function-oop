@@ -1,11 +1,12 @@
+import math
 class Circle:
     def __init__(self,radius):
         self.radius = radius
     def area (self):
-        A = 3.14 * self.radius**2
+        A = math.pi * self.radius**2
         return A
     def circumference (self):
-        C = 2 * 3.14 * self.radius
+        C = 2 * math.pi * self.radius
         return C
 
 
@@ -36,10 +37,10 @@ class Shpere:
     def __init__(self,raduis):
         self.radius = raduis
     def area (self):
-        A = 4 * 3.14 * self.radius**2
+        A = 4 * math.pi * self.radius**2
         print(A)
     def volume (self):
-        V = 4/3 * (3.14 * self.radius**3)
+        V = 4/3 * (math.pi * self.radius**3)
         print(V)
 
 
